@@ -7,6 +7,7 @@ import { List } from "../../List";
 import { Header } from "../../Header";
 import { Frame } from "framer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { GithubOutlined } from "@ant-design/icons";
 
 function Store({ match }) {
   let { id } = match.params;
@@ -84,6 +85,7 @@ const Home = () => {
       </div>
       <div className="contact"></div>
       <p>Contact</p>
+      <GithubOutlined />
     </>
   );
 };
