@@ -1,0 +1,12 @@
+this for the package json deploy to github pages
+"homepage": "http://doberman7.github.io/ivan-projects",
+ 
+ but on local trys: http://localhost:3000/ivan-projects -> ERROR
+
+
+so on loca try 
+ on local needs these
+"homepage": ".",
+
+in
+
