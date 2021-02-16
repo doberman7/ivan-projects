@@ -84,7 +84,7 @@ const Home = () => {
         </AnimateSharedLayout>
       </div>
       <div className="contact"></div>
-      <p>Contact</p>
+      <p>CONTACT</p>
       <GithubOutlined />
     </>
   );
