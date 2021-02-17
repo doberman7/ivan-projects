@@ -12,6 +12,7 @@ import {
   LinkedinOutlined,
   SyncOutlined,
 } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 function Store({ match }) {
   let { id } = match.params;
@@ -89,9 +90,21 @@ const Home = () => {
       </div>
       <div className="contact">
         <p>Contact</p>
-        <GithubOutlined />
-        {"   "}
-        <LinkedinOutlined />
+
+        <a
+          href="https://github.com/doberman7"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          <GithubOutlined />{" "}
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/ivan-rubio/"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          {"   "}
+          <LinkedinOutlined />
+        </a>
       </div>
       <div>
         <p>
