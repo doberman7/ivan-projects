@@ -7,7 +7,11 @@ import { List } from "../../List";
 import { Header } from "../../Header";
 import { Frame } from "framer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { GithubOutlined } from "@ant-design/icons";
+import {
+  GithubOutlined,
+  LinkedinOutlined,
+  HeartTwoTone,
+} from "@ant-design/icons";
 
 function Store({ match }) {
   let { id } = match.params;
@@ -83,9 +87,17 @@ const Home = () => {
           </Router>
         </AnimateSharedLayout>
       </div>
-      <div className="contact"></div>
-      <p>Contact</p>
-      <GithubOutlined />
+      <div className="contact">
+        <p>Contact</p>
+        <GithubOutlined />
+        {"   "}
+        <LinkedinOutlined />
+      </div>
+      <div>
+        <p>
+          Made with <HeartTwoTone twoToneColor="#eb2f96" /> by Ivan Rubio
+        </p>
+      </div>
     </>
   );
 };
