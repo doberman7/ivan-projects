@@ -9,7 +9,7 @@ export function Item({ id }) {
   if (id === "ivan-projects") {
     return null;
   }
-  const { category, title } = items.find((item) => item.id === id);
+  const { category, title, paragraph } = items.find((item) => item.id === id);
   return (
     <>
       <motion.div
@@ -38,11 +38,7 @@ export function Item({ id }) {
             <h2>{title}</h2>
           </motion.div>
           <motion.div className="content-container" animate>
-            <LoremIpsum
-              p={6}
-              avgWordsPerSentence={6}
-              avgSentencesPerParagraph={4}
-            />
+            <p>{paragraph}</p>
           </motion.div>
         </motion.div>
       </div>
