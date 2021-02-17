@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import {
   GithubOutlined,
   LinkedinOutlined,
-  HeartTwoTone,
+  SyncOutlined,
 } from "@ant-design/icons";
 
 function Store({ match }) {
@@ -95,7 +95,7 @@ const Home = () => {
       </div>
       <div>
         <p>
-          Made with <HeartTwoTone twoToneColor="#eb2f96" /> by Ivan Rubio
+          Made by Ivan Rubio <SyncOutlined spin />
         </p>
       </div>
     </>
