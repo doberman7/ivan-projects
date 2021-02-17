@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Avatar } from "react-lorem-ipsum";
+import { Avatar, Image } from "antd";
 
 export const Header = () => {
   let today = new Date(),
@@ -15,7 +15,7 @@ export const Header = () => {
       <span className="date">{date}</span>
       <h1>Ivan's</h1>
       <div className="avatar">
-        <Avatar />
+        <Avatar src="https://avatars.githubusercontent.com/u/23062808?s=400&u=8e2dab83bfa2b89a342788eb162a08dd9609c9c5&v=4" />
       </div>
     </header>
   );
