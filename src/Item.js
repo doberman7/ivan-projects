@@ -1,14 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { LoremIpsum } from "react-lorem-ipsum";
 import { Link } from "react-router-dom";
 import { items } from "./data";
 
 export function Item({ id }) {
   //something calls this id on the first render
-  if (id === "ivan-projects") {
-    return null;
-  }
+  // if (id === "ivan-projects") {
+  //   return null;
+  // }
   const { category, title, paragraph } = items.find((item) => item.id === id);
   return (
     <>
@@ -41,6 +40,7 @@ export function Item({ id }) {
             <p>{paragraph}</p>
           </motion.div>
         </motion.div>
+        {/* <button onClick={() => console.log()}>{title}</button> */}
       </div>
     </>
   );

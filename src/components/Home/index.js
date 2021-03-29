@@ -12,8 +12,8 @@ import {
   LinkedinOutlined,
   SyncOutlined,
 } from "@ant-design/icons";
-import { Link } from "react-router-dom";
 
+import ProjectLinks from "./ProjectLinks";
 function Store({ match }) {
   let { id } = match.params;
   const imageHasLoaded = true;
@@ -77,9 +77,9 @@ const Home = () => {
         <p>Hi</p>
         <p>My name is Ivan</p>
         <p>I'm a Web Developer</p>
-        <p>Here you can see my projects</p>
-        <p>Contact me</p>
-        <p>…and invite me a beer 😎 🍺</p>
+        <p>Here you can see about me </p>
+        <p>and some of my projects</p>
+        <p>check it out and then invite me a beer 😎 🍺</p>
       </div>
       <div className="container">
         <AnimateSharedLayout type="crossfade">
@@ -88,6 +88,9 @@ const Home = () => {
           </Router>
         </AnimateSharedLayout>
       </div>
+
+      <ProjectLinks />
+
       <div className="contact">
         <p>Contact</p>
 
@@ -108,7 +111,8 @@ const Home = () => {
       </div>
       <div>
         <p>
-          Made by Ivan Rubio <SyncOutlined spin />
+          Made by Ivan Rubi
+          <SyncOutlined spin />
         </p>
       </div>
     </>
