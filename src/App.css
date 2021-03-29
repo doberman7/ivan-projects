@@ -44,6 +44,11 @@ h1 {
   font-size: 14px;
   text-transform: uppercase;
 }
+.hello {
+  color: var(--secondary);
+  font-size: 14px;
+  /* text-transform: uppercase; */
+}
 
 header {
   border-bottom: 1px solid var(--divider);
