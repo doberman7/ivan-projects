@@ -7,13 +7,9 @@ import { List } from "../../List";
 import { Header } from "../../Header";
 import { Frame } from "framer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import {
-  GithubOutlined,
-  LinkedinOutlined,
-  SyncOutlined,
-} from "@ant-design/icons";
 
 import ProjectLinks from "./ProjectLinks";
+import Contact from "./Contact";
 function Store({ match }) {
   let { id } = match.params;
   const imageHasLoaded = true;
@@ -90,31 +86,7 @@ const Home = () => {
       </div>
 
       <ProjectLinks />
-
-      <div className="contact">
-        <p>Contact</p>
-
-        <a
-          href="https://github.com/doberman7"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          <GithubOutlined />{" "}
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/ivan-rubio/"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          {"   "}
-          <LinkedinOutlined />
-        </a>
-      </div>
-      <div>
-        <p>
-          Made by Ivan Rubi
-          <SyncOutlined spin />
-        </p>
-      </div>
+      <Contact />
     </>
   );
 };
