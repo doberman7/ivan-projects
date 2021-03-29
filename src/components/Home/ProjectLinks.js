@@ -1,18 +1,15 @@
 const ProjectLinks = () => {
   return (
     <>
-      <div style={{ paddingLeft: "50px", textAlign: "left" }}>
+      <div style={{ padding: "50px", textAlign: "left" }}>
         <h1>Links</h1>
+
         <a
           href="https://tienda-de-garage.herokuapp.com/"
-          style={{
-            textDecoration: "none",
-            color: "white",
-            margin: "100px",
-          }}
+          style={{ textDecoration: "none", color: "white" }}
         >
           <p>Tienda de Garage</p>
-        </a>{" "}
+        </a>
         <a
           href="https://spotify-ivan.herokuapp.com/"
           style={{ textDecoration: "none", color: "white" }}

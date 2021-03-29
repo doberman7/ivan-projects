@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import ProjectLinks from "./ProjectLinks";
 import Contact from "./Contact";
+import Text from "./Text";
 function Store({ match }) {
   let { id } = match.params;
   const imageHasLoaded = true;
@@ -69,14 +70,8 @@ const Home = () => {
         </Frame>
       </div>
       <br></br>
-      <div className="projects">
-        <p>Hi</p>
-        <p>My name is Ivan</p>
-        <p>I'm a Web Developer</p>
-        <p>Here you can see about me </p>
-        <p>and some of my projects</p>
-        <p>check it out and then invite me a beer 😎 🍺</p>
-      </div>
+
+      <Text />
       <div className="container">
         <AnimateSharedLayout type="crossfade">
           <Router>
