@@ -2,9 +2,9 @@ import React from "react";
 // import { Link, Redirect } from "react-router-dom";
 // import { motion } from "framer-motion";
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
-import { Item } from "../../Item";
-import { List } from "../../List";
-import { Header } from "../../Header";
+import { Item } from "./Item";
+import { List } from "./List";
+import { Header } from "./Header";
 import { Frame } from "framer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
