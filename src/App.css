@@ -254,3 +254,27 @@ p {
     padding: 0;
   }
 }
+.wrapperScroll {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.containerScroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+}
+
+.itemScroll {
+  width: inherit;
+  height: inherit;
+  background: blue;
+  /* background: rgba(10, 19, 79, 0.2); */
+  transform-origin: 50% 100%;
+}

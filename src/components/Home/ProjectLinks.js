@@ -1,7 +1,13 @@
 const ProjectLinks = () => {
   return (
     <>
-      <div style={{ padding: "50px", textAlign: "left" }}>
+      <div
+        style={{
+          padding: "50px",
+          textAlign: "left",
+          backgroundColor: "#253CFF",
+        }}
+      >
         <h1>Links</h1>
 
         <a

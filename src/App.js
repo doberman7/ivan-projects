@@ -11,6 +11,7 @@ const App = () => {
         <Particles height="220vh" width="100vw" params={particlesConfig} />
       </div>
       <Home />
+      <Particles height="90vh" width="100vw" params={particlesConfig} />
     </div>
   );
 };

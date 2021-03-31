@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Text from "./Text";
 import Purple from "./Purple";
 import Rectangles from "./Rectangles";
+import Scroll from "./Scroll";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Rectangles />
       <ProjectLinks />
       <Contact />
+      <Scroll />
     </>
   );
 };
