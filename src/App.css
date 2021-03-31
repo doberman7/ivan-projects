@@ -254,3 +254,9 @@ p {
     padding: 0;
   }
 }
+.containerSquare {
+  width: 45px;
+  height: 40px;
+  background: #F401A8;
+  border-radius: 40px;
+}

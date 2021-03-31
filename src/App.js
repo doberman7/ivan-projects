@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App" style={{ position: "relative", overflow: "hidden" }}>
       <div style={{ position: "absolute" }}>
-        <Particles height="260vh" width="100vw" params={particlesConfig} />
+        <Particles height="200vh" width="100vw" params={particlesConfig} />
       </div>
       <Home />
     </div>

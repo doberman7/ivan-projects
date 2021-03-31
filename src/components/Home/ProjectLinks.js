@@ -1,3 +1,35 @@
+import Square from "./Square";
+const DataListItems = () => {
+  const Data = [
+    {
+      link: "https://tienda-de-garage.herokuapp.com",
+      text: "Tienda de Garage",
+    },
+    {
+      link: "https://spotify-ivan.herokuapp.com",
+      text: "Spotify Search",
+    },
+    {
+      link: "https://space-demons3.herokuapp.com",
+      text: "Space Challenge",
+    },
+    {
+      link: "https://desolate-castle-34897.herokuapp.com",
+      text: "Desolate Castle",
+    },
+  ];
+
+  return Data.map((d) => (
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <Square />
+      &nbsp;
+      <a href={d.link} style={{ textDecoration: "none", color: "black" }}>
+        <p>{d.text}</p>
+      </a>
+    </div>
+  ));
+};
+
 const ProjectLinks = () => {
   return (
     <>
@@ -10,31 +42,7 @@ const ProjectLinks = () => {
         }}
       >
         <h1>Links</h1>
-
-        <a
-          href="https://tienda-de-garage.herokuapp.com/"
-          style={{ textDecoration: "none", color: "black" }}
-        >
-          <p>Tienda de Garage</p>
-        </a>
-        <a
-          href="https://spotify-ivan.herokuapp.com/"
-          style={{ textDecoration: "none", color: "black" }}
-        >
-          <p>Spotify Search</p>
-        </a>
-        <a
-          href="https://space-demons3.herokuapp.com/"
-          style={{ textDecoration: "none", color: "black" }}
-        >
-          <p>Space Challenge</p>
-        </a>
-        <a
-          href="https://desolate-castle-34897.herokuapp.com/"
-          style={{ textDecoration: "none", color: "black" }}
-        >
-          <p>Desolate Castle</p>
-        </a>
+        {DataListItems()}
       </div>
     </>
   );
