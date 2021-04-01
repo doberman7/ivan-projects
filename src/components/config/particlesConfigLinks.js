@@ -1,60 +1,60 @@
-const particlesConfig = {
+const particlesConfigLinks = {
+  fullScreen: {
+    enable: true,
+    zIndex: 10,
+  },
   particles: {
     number: {
-      value: 50,
+      value: 100,
+      limit: 200,
       density: {
         enable: true,
-        value_area: 1803.4120608655228,
+        value_area: 800,
       },
     },
     color: {
-      value: "#ffffff",
+      // value: "#F5607E",
+      value: "#337DFF",
     },
     shape: {
       type: "circle",
       stroke: {
-        width: 2,
+        width: 3,
         color: "#000000",
       },
       polygon: {
-        nb_sides: 4,
+        nb_sides: 5,
       },
       image: {
-        src: "img/github.svg",
+        src: "images/github.svg",
         width: 100,
         height: 100,
       },
     },
     opacity: {
-      value: 0.4008530152163807,
-      random: false,
-      anim: {
-        enable: false,
-        speed: 1,
-        opacity_min: 0.1,
-        sync: false,
-      },
+      value: 0.3,
+      random: true,
     },
     size: {
-      value: 1.5,
+      value: 30,
       random: true,
       anim: {
-        enable: false,
-        speed: 40,
-        size_min: 0.1,
+        enable: true,
+        speed: 10,
+        size_min: 10,
         sync: false,
       },
     },
-    // line_linked: {
-    //   enable: true,
-    //   distance: 0,
-    //   color: "#ffffff",
-    //   opacity: 0.3687847739990702,
-    //   width: 0.6413648243462091,
-    // },
+    line_linked: {
+      enable: true,
+      distance: 100,
+      color: "#000",
+      opacity: 0.1,
+      width: 1,
+    },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,
@@ -68,35 +68,30 @@ const particlesConfig = {
     },
   },
   interactivity: {
-    detect_on: "window",
+    detectsOn: "window",
     events: {
-      onhover: {
+      onHover: {
         enable: true,
         mode: "repulse",
-      },
-      onclick: {
-        enable: false,
-        mode: "bubble",
       },
       resize: true,
     },
     modes: {
       grab: {
         distance: 400,
-        line_linked: {
+        lineLinked: {
           opacity: 1,
         },
       },
       bubble: {
         distance: 400,
-        size: 40,
+        size: 100,
         duration: 2,
-        opacity: 8,
-        speed: 3,
+        opacity: 0.3,
+        speed: 2,
       },
       repulse: {
-        distance: 100,
-        duration: 0.4,
+        distance: 200,
       },
       push: {
         particles_nb: 4,
@@ -107,6 +102,7 @@ const particlesConfig = {
     },
   },
   retina_detect: true,
+  fps_limit: 60,
 };
 
-export default particlesConfig;
+export default particlesConfigLinks;

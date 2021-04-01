@@ -24,8 +24,8 @@ const title = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  // background: "linear-gradient(180deg, #f08, #d0e)",
-  background: "linear-gradient(180deg, #337DFF, #d0e)",
+  background: "linear-gradient(180deg, #f08, #d0e)",
+  // background: "linear-gradient(180deg, #337DFF, #0FC5A7)",
 };
 
 const Purple = () => {

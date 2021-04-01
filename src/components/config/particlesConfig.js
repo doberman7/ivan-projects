@@ -13,7 +13,8 @@ const particlesConfig = {
       },
     },
     color: {
-      value: "#337DFF",
+      value: "#F5607E",
+      // value: "#337DFF",
     },
     shape: {
       type: "circle",
