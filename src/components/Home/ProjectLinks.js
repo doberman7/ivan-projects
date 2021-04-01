@@ -1,4 +1,8 @@
 import Square from "./Square";
+
+import Particles from "react-particles-js";
+import particlesConfig from "../config/particlesConfigLinks";
+
 const DataListItems = () => {
   const Data = [
     {
@@ -24,13 +28,26 @@ const DataListItems = () => {
   ];
 
   return Data.map((d) => (
-    <div style={{ display: "flex", alignItems: "center" }}>
-      <Square />
-      &nbsp;
-      <a href={d.link} style={{ textDecoration: "none", color: "black" }}>
-        <p>{d.text}</p>
-      </a>
-    </div>
+    <>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <Square />
+        &nbsp;
+        <div style={{ position: "absolute" }}>
+          <Particles params={particlesConfig} />
+        </div>
+        <a
+          href={d.link}
+          style={{
+            textDecoration: "none",
+            color: "black",
+            // position: "absolute",
+            zIndex: 1,
+          }}
+        >
+          <p>{d.text}</p>
+        </a>
+      </div>
+    </>
   ));
 };
 
@@ -46,6 +63,7 @@ const ProjectLinks = () => {
         }}
       >
         <h1>Links</h1>
+
         {DataListItems()}
       </div>
     </>
