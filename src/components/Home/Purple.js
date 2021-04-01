@@ -11,7 +11,8 @@ const h1Style = {
   // paddingLeft: 300,
 };
 const frame = {
-  background: "linear-gradient(180deg, #f08, #d0e)",
+  // background: "linear-gradient(180deg, #f08, #d0e)",
+  background: "transparent",
 };
 
 const title = {
@@ -23,7 +24,8 @@ const title = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  background: "linear-gradient(180deg, #f08, #d0e)",
+  // background: "linear-gradient(180deg, #f08, #d0e)",
+  background: "linear-gradient(180deg, #337DFF, #d0e)",
 };
 
 const Purple = () => {
