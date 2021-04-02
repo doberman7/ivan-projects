@@ -1,5 +1,8 @@
 import Square from "./Square";
-
+import { Frame } from "framer";
+const frame = {
+  background: "transparent",
+};
 const LinksListItems = () => {
   const Data = [
     {
@@ -28,6 +31,8 @@ const LinksListItems = () => {
         <div style={{ position: "absolute" }}></div>
         <a
           href={d.link}
+          target="_blank"
+          rel="noreferrer"
           style={{
             textDecoration: "none",
             // color: "black",
@@ -35,7 +40,16 @@ const LinksListItems = () => {
             zIndex: 1,
           }}
         >
-          <p>{d.text}</p>
+          <Frame
+            // height={45}
+            // width={85}
+            style={frame}
+            animate={{ x: 10, y: -35 }}
+            whileHover={{ scale: 1.2, rotate: 20 }}
+            whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
+          >
+            <p>{d.text}</p>
+          </Frame>
         </a>
       </div>
     </>
