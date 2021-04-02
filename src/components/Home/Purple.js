@@ -1,7 +1,7 @@
 import { Frame } from "framer";
 
 const h1Style = {
-  color: "#ECF0F1",
+  color: "black",
   fontFamily: "Helvetica Neue",
   fontSize: " 50px",
   fontWeight: "bold",
@@ -25,7 +25,7 @@ const title = {
   justifyContent: "center",
   alignItems: "center",
   // background: "linear-gradient(180deg, #f08, #d0e)",
-  background: "linear-gradient(180deg,#283747, #2E86C1)",
+  background: "linear-gradient(180deg,#1ABC9C , #3498DB)",
 };
 
 const Purple = () => {
@@ -33,7 +33,7 @@ const Purple = () => {
     <>
       <div style={title}>
         <Frame
-          width={250}
+          // width={250}
           // className="container "
           style={frame}
           animate={{
@@ -42,7 +42,7 @@ const Purple = () => {
             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
         >
-          <p style={h1Style}> Projects</p>
+          <p style={h1Style}> Ivan Projects </p>
         </Frame>
       </div>
     </>
