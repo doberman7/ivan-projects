@@ -25,9 +25,7 @@ const LinksListItems = () => {
       <div style={{ display: "flex", alignItems: "center" }}>
         <Square />
         &nbsp;
-        <div style={{ position: "absolute" }}>
-          {/* <Particles params={particlesConfig} /> */}
-        </div>
+        <div style={{ position: "absolute" }}></div>
         <a
           href={d.link}
           style={{
