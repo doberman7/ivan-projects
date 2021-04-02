@@ -1,7 +1,6 @@
 import LinksListItems from "./LinksListItems";
 import { Frame } from "framer";
 const frame = {
-  // background: "linear-gradient(180deg, #f08, #d0e)",
   background: "transparent",
 };
 const ProjectLinks = () => {
@@ -11,12 +10,13 @@ const ProjectLinks = () => {
         style={{
           padding: "50px",
           textAlign: "left",
-          // background: "linear-gradient(280deg, #b0e, #d08)",
+          // background: "linear-gradient(280deg, #1B2631,#020919)",
           // color: "black",
         }}
       >
         <Frame
-          // width={250}
+          height={45}
+          width={85}
           // className="container "
           style={frame}
           animate={{ x: 10, y: -60 }}
