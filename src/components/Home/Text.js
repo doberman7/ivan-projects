@@ -2,7 +2,7 @@ const Text = () => {
   return (
     <>
       <div>
-        <p>My name is Ivan</p>
+        {/* <p>My name is Ivan</p> */}
         <p>I'm a Web Developer</p>
         <p>Here you can see about me </p>
         <p>and some of my projects</p>
