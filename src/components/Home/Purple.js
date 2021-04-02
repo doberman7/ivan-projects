@@ -1,7 +1,7 @@
 import { Frame } from "framer";
 
 const h1Style = {
-  color: "#111",
+  color: "#ECF0F1",
   fontFamily: "Helvetica Neue",
   fontSize: " 50px",
   fontWeight: "bold",
@@ -24,8 +24,8 @@ const title = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  background: "linear-gradient(180deg, #f08, #d0e)",
-  // background: "linear-gradient(180deg, #337DFF, #0FC5A7)",
+  // background: "linear-gradient(180deg, #f08, #d0e)",
+  background: "linear-gradient(180deg,#283747, #2E86C1)",
 };
 
 const Purple = () => {

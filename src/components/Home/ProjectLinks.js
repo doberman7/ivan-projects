@@ -39,7 +39,7 @@ const DataListItems = () => {
           href={d.link}
           style={{
             textDecoration: "none",
-            color: "black",
+            // color: "black",
             // position: "absolute",
             zIndex: 1,
           }}
