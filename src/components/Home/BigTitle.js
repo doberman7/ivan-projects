@@ -28,7 +28,7 @@ const title = {
   background: "linear-gradient(180deg,#1ABC9C , #3498DB)",
 };
 
-const Purple = () => {
+const BigTitle = () => {
   return (
     <>
       <div style={title}>
@@ -49,4 +49,4 @@ const Purple = () => {
   );
 };
 
-export default Purple;
+export default BigTitle;
