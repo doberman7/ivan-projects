@@ -48,7 +48,7 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 100,
-      color: "#000",
+      color: "#E74C3C",
       opacity: 0.1,
       width: 1,
     },
@@ -59,9 +59,9 @@ const particlesConfig = {
       random: false,
       straight: false,
       out_mode: "out",
-      bounce: false,
+      bounce: true,
       attract: {
-        enable: false,
+        enable: true,
         rotateX: 600,
         rotateY: 1200,
       },

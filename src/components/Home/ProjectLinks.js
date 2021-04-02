@@ -33,7 +33,7 @@ const DataListItems = () => {
         <Square />
         &nbsp;
         <div style={{ position: "absolute" }}>
-          <Particles params={particlesConfig} />
+          {/* <Particles params={particlesConfig} /> */}
         </div>
         <a
           href={d.link}
