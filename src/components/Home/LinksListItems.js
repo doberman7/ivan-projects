@@ -49,7 +49,7 @@ const LinksListItems = () => {
             // width={85}
             style={frame}
             animate={{ x: 10, y: -35 }}
-            whileHover={{ scale: 1.2, rotate: 20 }}
+            whileHover={{ scale: 1.2, rotate: -10 }}
             whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
           >
             <p>{d.text}</p>
