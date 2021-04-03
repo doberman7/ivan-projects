@@ -21,7 +21,7 @@ const ProjectLinks = () => {
           style={frame}
           animate={{ x: 10, y: -60 }}
           drag="x"
-          dragConstraints={{ left: -1, right: 100 }}
+          dragConstraints={{ left: -1, right: 500 }}
         >
           <h1>Links</h1>
         </Frame>
