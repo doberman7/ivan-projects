@@ -14,6 +14,10 @@ const LinksListItems = () => {
       text: "Spotify Search",
     },
     {
+      link: "https://reddit-doberman7.vercel.app/",
+      text: "Reddit Clone",
+    },
+    {
       link: "https://space-demons3.herokuapp.com",
       text: "Space Challenge",
     },
