@@ -6,7 +6,7 @@ export const items = [
     title: "Tienda de Garage",
     pointOfInterest: 80,
     backgroundColor: "#814A0E",
-    paragraph: "Do you need to organize garage sells? This is your app",
+    paragraph: "Online store for Garage Sales",
     tech: "Node JS, Mongo, Express React Js",
   },
   {
@@ -15,7 +15,7 @@ export const items = [
     title: "Spotify Search",
     pointOfInterest: 120,
     backgroundColdr: "#959684",
-    paragraph: "Wana check if an artist or a song its on Spotify?",
+    paragraph: "Search engine for Spotify",
     tech: "HBS and NODE JS",
   },
   {
@@ -24,17 +24,17 @@ export const items = [
     title: "Space Challenge",
     pointOfInterest: 260,
     backgroundColor: "#5DBCD2",
-    paragraph: "Send a video gamee challenge by mail",
+    paragraph: "Send a video game challenge by mail",
     tech: "NODE JS, CLOUDINARY, VANILLA JS and BOOTSTRAP",
   },
   {
     id: "g",
-    category: "Ruby On Rails",
-    title: "Desolate Castle",
+    category: "NextJS",
+    title: "Reddit Clone",
     pointOfInterest: 200,
     backgroundColor: "#8F986D",
-    paragraph: "Wana see my first try on web develoment? this is it",
-    tech: "RUBY ON RAILS, JS",
+    paragraph: "Reddit Clone with NextJS, Vercel and Reddit Api",
+    tech: "NextJS",
   },
 ];
 
