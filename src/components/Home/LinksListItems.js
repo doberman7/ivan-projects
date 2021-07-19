@@ -29,6 +29,10 @@ const LinksListItems = () => {
       link: "https://6053f9a241f062429190e6b4--mystifying-davinci-a8c977.netlify.app/",
       text: "Blog test with Gatsby",
     },
+    {
+      link: "https://giphy-search-app-mocha.vercel.app/",
+      text: "Giphy Search App",
+    },
   ];
 
   return Data.map((d) => (
