@@ -2,21 +2,21 @@ export const items = [
   // Photo by ivan Torres on Unsplash
   {
     id: "c",
-    category: "Who im",
-    title: "A Software Developer",
+    category: "activity",
+    title: "Developer ",
     pointOfInterest: 80,
     backgroundColor: "#814A0E",
     paragraph:
-      "I'm a JavaScript Developer and a Technical Writer, started with JS by myself, then I took an IronHack Bootcamp, I'm also a Technical Writer, and I'm made of 80% Cinnamon Cereal and 20% Coffee",
+      "I'm a Software Developer, a Technical Writer and i'm made of 80% Javascript and 20% Cinnamon Cereal",
   },
   {
     id: "f",
-    category: "What i like",
-    title: "Spotify Search",
+    category: "interests",
+    title: "Javascript",
     pointOfInterest: 120,
     backgroundColdr: "#959684",
-    paragraph: "Search engine for Spotify",
-    // tech: "HBS and NODE JS",
+    paragraph:
+      "Love React and NodeJs have experience with Handlebars.js and i'm learning Python ",
   },
 ];
 
