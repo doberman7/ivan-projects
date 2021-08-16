@@ -16,7 +16,7 @@ export const items = [
     pointOfInterest: 120,
     backgroundColdr: "#959684",
     paragraph:
-      "Love React and NodeJs have experience with Handlebars.js and i'm learning Python ",
+      "Love React and NodeJs, have experience with Handlebars.js and i'm learning Python ",
   },
 ];
 
