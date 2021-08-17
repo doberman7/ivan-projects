@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { items } from "./data";
-import UseLockBodyScroll from "./Use-lock-body-scroll";
+import UseLockBodyScroll from "../Helpers/Use-lock-body-scroll";
 
 export function Item({ id }) {
   // Call hook to lock body scroll
