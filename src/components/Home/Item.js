@@ -2,8 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { items } from "./data";
+import UseLockBodyScroll from "./Use-lock-body-scroll";
 
 export function Item({ id }) {
+  // Call hook to lock body scroll
+  UseLockBodyScroll();
   //something calls this id on the first render
   // if (id === "ivan-projects") {
   //   return null;
