@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Text from "./Text";
 import BigTitle from "./BigTitle";
 import Rectangles from "./Rectangles";
+import ProyectCard from "../Cards/ProyectCard";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Text />
 
       <Rectangles />
+      <ProyectCard />
       <ProjectLinks />
       <Contact />
     </>
