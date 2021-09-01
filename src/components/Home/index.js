@@ -19,6 +19,7 @@ const Home = () => {
 
       <Rectangles />
       <ProyectCard />
+      <br />
       <ProjectLinks />
       <Contact />
     </>
