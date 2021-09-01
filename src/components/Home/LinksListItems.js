@@ -22,8 +22,8 @@ const LinksListItems = () => {
       text: "Space Challenge",
     },
     {
-      link: "https://desolate-castle-34897.herokuapp.com",
-      text: "Desolate Castle",
+      link: "https://peliculas2-app.herokuapp.com/",
+      text: "App de peliculas",
     },
     {
       link: "https://6053f9a241f062429190e6b4--mystifying-davinci-a8c977.netlify.app/",
