@@ -4,7 +4,7 @@ const { Meta } = Card;
 
 const { Link } = Anchor;
 
-const RowAndColumns = () => {
+const ProjectBig = () => {
   const apps = [
     {
       id: 1,
@@ -31,17 +31,10 @@ const RowAndColumns = () => {
         "do you want to check reddit home on a cleaner view this is the app for for you ",
     },
   ];
-  const contentStyle = {
-    height: "10px",
-    // color: "#fff",
-    // lineHeight: "160px",
-    // textAlign: "center",
-    // background: "#364d79",
-  };
   return (
     <>
       <div className="site-card-wrapper" style={{ padding: "1rem 2rem" }}>
-        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+        <Row>
           {apps ? (
             apps.map((app) => (
               <Col
@@ -49,14 +42,15 @@ const RowAndColumns = () => {
                 span={8}
                 key={app.id}
                 xs={24}
-                sm={24}
-                md={8}>
+                // sm={24}
+                // md={8}
+              >
                 <div>
                   <Card
-                    offset={4}
+                    // offset={4}
                     title={app.title}
                     // hoverable
-                    // style={{ height: 390 }}
+                    style={{ borderRadius: "30px" }}
                     cover={<img alt="example" src={app.imagen} />}>
                     {/* <Meta title={app.title} /> */}
                     <a
@@ -74,6 +68,7 @@ const RowAndColumns = () => {
                     :<span>&nbsp;&nbsp;</span>
                     {app.description}
                   </Card>
+                  <br />
                 </div>
               </Col>
             ))
@@ -86,4 +81,4 @@ const RowAndColumns = () => {
   );
 };
 
-export default RowAndColumns;
+export default ProjectBig;

@@ -1,6 +1,6 @@
 import React from "react";
-import RowAndColumns from "./RowAndColumns";
-import RowAndColumnsBig from "./RowAndColumnsBig";
+import Project from "./Project";
+import ProjectBig from "./ProjectBig";
 import { useMediaQuery } from "react-responsive";
 
 const ProyectCard = () => {
@@ -10,11 +10,8 @@ const ProyectCard = () => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 700px)" });
   return (
     <>
-      {/* <RowAndColumnsBig />
-      <RowAndColumns /> */}
-      <h1>Device Test!</h1>
-      {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
-      {isTabletOrMobile && <p>You are a tablet or mobile phone</p>}
+      {isDesktopOrLaptop && <Project />}
+      {isTabletOrMobile && <ProjectBig />}
     </>
   );
 };

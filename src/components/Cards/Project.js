@@ -4,7 +4,7 @@ const { Meta } = Card;
 
 const { Link } = Anchor;
 
-const RowAndColumns = () => {
+const Proyect = () => {
   const apps = [
     {
       id: 1,
@@ -50,7 +50,7 @@ const RowAndColumns = () => {
                     offset={4}
                     title={app.title}
                     // hoverable
-                    // style={{ height: 390 }}
+                    style={{ borderRadius: "20px" }}
                     cover={<img alt="example" src={app.imagen} />}>
                     {/* <Meta title={app.title} /> */}
                     <a
@@ -80,4 +80,4 @@ const RowAndColumns = () => {
   );
 };
 
-export default RowAndColumns;
+export default Proyect;
