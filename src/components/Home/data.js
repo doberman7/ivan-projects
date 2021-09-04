@@ -7,7 +7,7 @@ export const items = [
     pointOfInterest: 80,
     backgroundColor: "#814A0E",
     paragraph:
-      "I'm a Software Developer, a Technical Writer and i'm made of 80% Javascript and 20% Cinnamon Cereal",
+      "I'm a Software Developer, a Technical Writer, Instructional Designer and i'm 80% gluten free",
   },
   {
     id: "f",
@@ -15,8 +15,7 @@ export const items = [
     title: "Javascript",
     pointOfInterest: 120,
     backgroundColdr: "#959684",
-    paragraph:
-      "Love React and NodeJs, have experience with Handlebars.js and i'm learning Python ",
+    paragraph: "I have experience with React, Node and Handlebars",
   },
 ];
 

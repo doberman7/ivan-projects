@@ -13,17 +13,23 @@ const h1Style = {
 const frame = {
   // background: "linear-gradient(180deg, #f08, #d0e)",
   background: "transparent",
+  // display: "flex",
+  // justifyContent: "center",
+  // alignItems: "center",
+
+  height: "20vh",
 };
 
-const title = {
+const rectanguloVerde = {
   width: "100vw",
-  height: "35vh",
+  height: "20vh",
   /* overflow: hidden, */
   padding: "0",
   margin: "0",
   display: "flex",
   justifyContent: "center",
-  alignItems: "center",
+  // alignItems: "center",
+  // alignSelf: "center",
   // background: "linear-gradient(180deg, #f08, #d0e)",
   background: "linear-gradient(180deg,#1ABC9C , #3498DB)",
 };
@@ -31,7 +37,7 @@ const title = {
 const BigTitle = () => {
   return (
     <>
-      <div style={title}>
+      <div style={rectanguloVerde}>
         <Frame
           // width={250}
           // className="container "
@@ -40,9 +46,11 @@ const BigTitle = () => {
             scale: [1, 2, 2, 1, 1],
             rotate: [0, 0, 270, 270, 0],
             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-          }}
-        >
-          <p style={h1Style}> Ivan Projects </p>
+          }}>
+          {/* <br /> */}
+          <br />
+          <br />
+          <p style={h1Style}> Hello </p>
         </Frame>
       </div>
     </>
