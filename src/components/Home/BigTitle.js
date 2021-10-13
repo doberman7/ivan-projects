@@ -1,13 +1,14 @@
 import { Frame } from "framer";
-
+import Particles from "react-particles-js";
+import particlesConfig from "../config/particlesConfig";
 const h1Style = {
   color: "black",
   fontFamily: "Helvetica Neue",
-  fontSize: " 50px",
+  fontSize: "50px",
   fontWeight: "bold",
-  letterSpacing: "-1px",
-  lineHeight: 1,
-  // textAlign: "rigth",
+  letterSpacing: "10px",
+  lineHeight: 4,
+  // textAlign: "center",
   // paddingLeft: 300,
 };
 const frame = {
@@ -38,6 +39,8 @@ const BigTitle = () => {
   return (
     <>
       <div style={rectanguloVerde}>
+        {/* controls size of the area with bubbles */}
+        <Particles width="100vw" params={particlesConfig} />
         <Frame
           // width={250}
           // className="container "
@@ -50,7 +53,17 @@ const BigTitle = () => {
           {/* <br /> */}
           <br />
           <br />
-          <p style={h1Style}> Hello </p>
+          {/* <p style={h1Style}> Hello </p> */}
+          <Frame
+            height={45}
+            width={85}
+            // className="container "
+            style={frame}
+            animate={{ x: 10, y: -60 }}
+            drag="x"
+            dragConstraints={{ left: -200, right: 200 }}>
+            <p style={h1Style}>Hello</p>
+          </Frame>
         </Frame>
       </div>
     </>

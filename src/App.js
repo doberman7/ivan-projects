@@ -1,16 +1,11 @@
 import "./App.css";
 import React from "react";
 import Home from "./components/Home";
-import Particles from "react-particles-js";
-import particlesConfig from "./components/config/particlesConfig";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative", overflow: "hidden" }}>
-      <div style={{ position: "absolute" }}>
-        {/* controls size of the area with bubbles */}
-        <Particles height="60vh" width="100vw" params={particlesConfig} />
-      </div>
+      <div style={{ position: "absolute" }}></div>
       <Home />
     </div>
   );
